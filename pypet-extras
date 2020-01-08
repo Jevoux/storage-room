@@ -1,0 +1,19 @@
+print("Welcome to Pypet")
+
+name = "Acqualungi"
+age = 2
+weight = 4
+hungry = True
+photo = "<`)))><"
+
+print("Hello " + name)
+print(photo)
+
+name = "Baatezu"
+age = 999
+weight = 3
+hungry = True
+photo = "(^0M0^)"
+
+print("Hello " + name)
+print(photo)
