@@ -1,0 +1,13 @@
+# Functions
+# Functions are blocks of code that run only
+# when called. We dedine a function using def.
+
+# A program using a say_hello function.
+def say_hello(msg): # This is the function.
+    print(f'Hello {msg}!') # input parameter
+
+# Call the say_hello function
+say_hello('world')
+
+# output is:
+# Hello world!
