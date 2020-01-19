@@ -1,0 +1,24 @@
+# Data types (numbers)
+# There are integers, floating point and
+# complex numbers.
+# Integers are defined by the int() class.
+# Floats are defined by the float() class.
+# Complex numbers are defined by the
+# complex class.
+
+# Integers can be of any length, only limited
+# by the memory available.
+a = 1234567890123456789
+print(a)
+
+# Floating point numbers are accurate up to
+# 15 decimals.
+b = 0.1234567890123456789
+print(b)
+# The floating variable gets truncated.
+
+# Complex numbers are written in the form of
+# x+yj, where x is the real part and y is
+# the imaginary part.
+c = 1+2j
+print(c)
