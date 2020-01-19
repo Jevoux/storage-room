@@ -1,0 +1,22 @@
+# Sets
+# A set is an unordered collection of unique
+# items. A set is defined by {braces} and 
+# separated by commas.
+
+a = {5, 2, 3, 1, 4}
+
+# printing set variable
+print("a = ", a)
+
+# data type of variable a
+print(type(a))
+
+# We can perform operations like union and
+# intersection on two sets. Sets have unique
+# values, eliminating duplicates.
+b = {1, 2, 2, 3, 3, 3}
+print(b)
+
+# Since sets are unordered, indexing has
+# no meaning.
+b[1]
