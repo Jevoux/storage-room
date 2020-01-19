@@ -1,0 +1,23 @@
+# Dictionary
+# Dictionaries are an unordered collection of
+# key-value pairs and are used to store large
+# ammounts of data. Dictionaries are
+# optimized for retrieving data but we must
+# know the key to retrieve the value.
+# Dictionaries are defined within {braces}
+# with eaxh item in the form of key: value.
+# Keys and values can be of any data type.
+
+a = {1: 'value', 'key': 2}
+print(type(a))
+
+# We use the keys to retrieve the respective
+# value but not the other way around.
+
+b = {1: 'values', 'keys': 2}
+print(type(b))
+
+print("b[1] = ", b['keys'])
+
+# Will generate an error.
+print("b[2] = ", b[2])
