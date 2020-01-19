@@ -1,0 +1,24 @@
+# Tuples
+# A tuple is an ordered sequence of items like
+# a list, but Atuples are immutable. Tuples
+# created can't be modified. They are used to
+# write-protect data and are usually faster
+# than a list because it cannot be changed
+# dinamically. The tuple is defined with
+# (parenthesis) and separated by commas.
+
+t = (5, 'program', 1+3j)
+print(t)
+
+# We can use the slicing operator [] to
+# extract items but we can't chamge its value.
+
+# t[1] = 'program'
+print("t[1] = ", t[1])
+
+# t[0:3] = (5, 'program', (1+3j))
+print("t[0:3] = ", t[0:3])
+
+# Will generate an error.
+# Tuples are immutable.
+t[0] = 10
