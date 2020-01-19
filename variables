@@ -1,0 +1,7 @@
+# Variables
+# Variables are storahe for data and a way
+# to name data to use it later.
+
+msg = "Hello world!"
+print(msg)
+# This code outputs Hello world!
