@@ -1,0 +1,30 @@
+# Lists
+# A list is an ordered sequence of items. All
+# the items of the list do not need to be of
+# the same type. The items must be separated by
+# commas and enclosed within [brackets].
+
+b = [1, 2.2, 'python']
+print(b)
+
+# We can use the slicing operator [] to
+# extract an item or a range of items from a
+# list. In Python the index starts from 0.
+
+a = [5, 10, 15, 20, 25, 30, 35, 40]
+
+# a[2] = 15
+print("a[2] = ", a[2])
+
+# a[0:3] = [5, 10, 15]
+print("a[0:3] = ", a[0:3])
+
+# a[5:] = [30, 35, 40]
+print("a[5:] = ", a[5:])
+
+# Lists are mutable, meaning its values can
+# be altered.
+
+c = [1, 2, 3]
+c[2] = 4
+print(c)
