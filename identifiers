@@ -1,0 +1,26 @@
+# Identifiers
+# An identifier is a name given to entities
+# like class, functions, variables, etc. It
+# helps to differentiate one entoty from
+# another.
+
+# Rules for writing identifiers
+# Identifiers csn be a combination of letters
+# in lower (a-z), upper case (A-Z), digits
+# (0-9) or an underscore (_).
+
+# An identifier can't start with a digit.
+
+# Keywords can't be used as identifiers.
+
+# We can't use special symbols such as
+# !, @, #, $, %, etc.
+
+# Identifiers can be of any length.
+
+#Remember:
+# Python is case sensitive. Always name
+# identifiers so they make sense.
+
+# Multiple words can be separated by an
+# underscore, this_is_a_long_variable.
