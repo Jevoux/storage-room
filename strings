@@ -1,0 +1,29 @@
+# Strings
+# Strings are sequences of Unicode characters.
+# We can use single or double quotes to
+# represent strings. Multiline strings are
+# denotes with triple quotes ''' or """.
+
+a = "This is a string"
+print(a)
+
+b = '''This one is a huge multiline 
+string that does not fit in a 
+single line'''
+print(b)
+
+# Like in a list or in a tuple, the slicing
+# operator can be used with strings. Strings
+# are immutable.
+
+c = 'Hello world!'
+
+# c[4] = 'o'
+print("c[4] = ", c[4])
+
+# c[6:11] = 'world'
+print("c[6:11] = ", c[6:11])
+
+# Will generate an error.
+# Strings are immutable.
+c[5] = 'd'
