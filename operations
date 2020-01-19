@@ -1,0 +1,16 @@
+# Operations
+# Operarions is how you manipulate data.
+# For example, we have:
+
+# Arithmetic operations
+x = 5 + 2
+
+# Comparison operations
+y = 3 > 4
+
+# Logic operations
+z = True or False
+
+print (x)
+print(y)
+print(z)
